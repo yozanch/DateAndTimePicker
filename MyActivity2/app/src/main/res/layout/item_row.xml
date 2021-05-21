@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llMain"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+
+    <TextView
+        android:id="@+id/txtKegiatan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kegiatan"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:visibility="gone"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=":"
+        android:textSize="16sp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:textColor="@color/black"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/txtTanggal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="Tanggal"
+        android:textSize="16sp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=":"
+        android:textSize="16sp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:textColor="@color/black"
+        android:visibility="gone"/>
+    <TextView
+        android:id="@+id/txtWaktu"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Waktu"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:visibility="gone"/>
+    <ImageView
+        android:id="@+id/ivDetails"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:contentDescription="image"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        android:scaleType="center"
+        android:src="@drawable/ic_detail"/>
+
+    <ImageView
+        android:id="@+id/ivEdit"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:contentDescription="image"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        android:scaleType="center"
+        android:src="@drawable/ic_edit"/>
+
+    <ImageView
+        android:id="@+id/ivDelete"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:contentDescription="image"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        android:scaleType="center"
+        android:src="@drawable/ic_delete"/>
+
+</LinearLayout>
